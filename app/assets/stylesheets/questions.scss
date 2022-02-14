@@ -1,3 +1,48 @@
-// Place all the styles related to the questions controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+.statement {
+margin-top: 200px;
+margin-left: 660px;
+length: 200PX;
+height: 20px;
+}
+
+.value{
+  height: 20px;
+}
+
+text{
+  font-size: 20px;
+  margin-top: 300px;
+  margin-left: 600px;
+  font-weight: bold;
+  color:green;
+}
+.container{
+  margin-top:200px;
+  margin-left: 600px;
+  color: gray;
+  font-weight: lighter;
+  font-size: 24px;
+}
